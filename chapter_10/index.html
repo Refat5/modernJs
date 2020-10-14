@@ -1,14 +1,51 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c9d1daa3b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="custom.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
+
 <body>
-    <center class="display-4"> hello </center>
-    
+    <div class="container">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">ToDo list</h1>
+
+            <form action="" class="search">
+                <input type="text" class="form-control m-auto" name="search" placeholder="Search to dolist">
+            </form>
+
+        </header>
+<div>
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content0between align-items-center">
+                <span>play Refat</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+
+            <li class="list-group-item d-flex justify-content0between align-items-center">
+                <span>play Tanvir</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+
+            <li class="list-group-item d-flex justify-content0between align-items-center">
+                <span>play jubair</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+    </div>
+        <form action="" class="add text-center my-4">
+            <label for="" class="text-light">Add a new todo..</label>
+            <input type="text" class="form-control m-auto" name="add">
+        </form>
+    </div>
+
+    <script src="app.js "></script>
 </body>
+
 </html>
